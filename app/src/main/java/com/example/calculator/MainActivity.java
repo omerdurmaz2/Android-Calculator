@@ -263,7 +263,7 @@ public class MainActivity extends AppCompatActivity {
             }
             if (islem == "sonuc") yedekTextAyarla("sonuc");
 
-        } else if (!textboxDegerAl().matches("") && sayi1 == null) {
+        } else if (!textboxDegerAl().matches("")) {
             sayi1 = Float.parseFloat(textboxDegerAl());
         }
     }
